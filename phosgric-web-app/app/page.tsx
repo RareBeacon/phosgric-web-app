@@ -33,7 +33,7 @@ export default function HomePage() {
   return (
     <div className="relative overflow-hidden px-4 pb-8 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl pt-8 sm:pt-10 lg:pt-14">
-        <AnimatedSection className="grid gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:items-center" delayMs={50}>
+        <AnimatedSection className="grid gap-10 lg:grid-cols-[1.04fr_0.96fr] lg:items-center" delay={50}>
           <div>
             <SectionBadge>Investor-ready agritech product</SectionBadge>
             <h1 className="mt-6 text-4xl font-semibold text-[color:#10291C] sm:text-5xl lg:text-6xl">AI Farm Intelligence, Direct Marketplace &amp; Agro-Logistics for African Farmers</h1>
@@ -61,7 +61,7 @@ export default function HomePage() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection className="mt-20" delayMs={80}>
+        <AnimatedSection className="mt-20" delay={80}>
           <SectionBadge>The Problem</SectionBadge>
           <h2 className="mt-4 text-3xl font-semibold text-[color:#10291C]">Farmers need information, trust, pricing power, and movement.</h2>
           <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -71,7 +71,7 @@ export default function HomePage() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection id="solution" className="mt-20" delayMs={100}>
+        <AnimatedSection id="solution" className="mt-20" delay={100}>
           <SectionBadge>The Solution</SectionBadge>
           <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {solutionCards.map((item) => (
@@ -80,7 +80,7 @@ export default function HomePage() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection className="mt-20" delayMs={120}>
+        <AnimatedSection className="mt-20" delay={120}>
           <SectionBadge>Marketplace preview</SectionBadge>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             {marketplaceItems.map((item) => (
